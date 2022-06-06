@@ -1,0 +1,27 @@
+[global_config]
+  title_transmit_bg_color = "#2777ff"
+  title_receive_bg_color = "#d41919"
+  title_inactive_fg_color = "#ffffff"
+  title_inactive_bg_color = "#23252e"
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1a1b26"
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = JetBrainsMono Nerd Font 14
+    foreground_color = "#a9b1d6"
+    show_titlebar = False
+    palette = "#32344a:#f7768e:#9ece6a:#e0af68:#7aa2f7:#ad8ee6:#449dab:#787c99:#444b6a:#ff7a93:#b9f27c:#ff9e64:#7da6ff:#bb9af7:#0db9d7:#acb0d0"
+    use_system_font = False
+    bold_is_bright = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
